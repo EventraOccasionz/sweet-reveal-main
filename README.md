@@ -1,66 +1,97 @@
-# 💕 Sweet Reveal
+# 🎂 Birthday Surprise Website
 
-A cute sweet reveal website built with love 💖  
-Sweet, simple, and made to bring a smile to someone special ✨ 
-
----
-
-## 🛠 Tech Stack
-
-- ⚛️ **Next.js** – React Framework for building fast UI
-- 🎨 **Tailwind CSS** – For modern and responsive styling
-- 🎞️ **Motion** – Smooth entrance and fade animations
+A beautiful interactive birthday surprise website built using Next.js, Tailwind CSS, and Framer Motion.
+This project creates a smooth animated birthday experience with music, glowing effects, floating particles, and emotional birthday wishes.
 
 ---
 
-## 🖥 Local Setup
+## ✨ Features
 
-To run this project locally, follow these steps:
+* 🎉 Animated birthday wish screens
+* 🎵 Background birthday music
+* 💖 Smooth page transitions
+* ✨ Floating particles & glowing effects
+* 📱 Fully responsive design
+* ⚡ Fast and lightweight
+* 🎂 Personalized birthday messages
+* 🌈 Modern gradient UI
+
+---
+
+## 🛠️ Tech Stack
+
+* Next.js
+* React.js
+* Tailwind CSS
+* Framer Motion
+
+---
+
+## 📂 Project Structure
 
 ```bash
-# Clone the repository
-git clone https://github.com/Anuj579/sweet-reveal.git
+src/
+ ├── app/
+ │    └── page.jsx
+ │
+ └── components/
+      ├── Screen1.jsx
+      ├── Screen2.jsx
+      ├── LyricsScreen.jsx
+      └── Music.jsx
+```
 
-# Navigate into the folder
-cd sweet-reveal
+---
 
-# Install dependencies
+## 🚀 Getting Started
+
+### 1️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
-# Start the development server
+### 2️⃣ Run Development Server
+
+```bash
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser to explore the site.
+### 3️⃣ Open In Browser
+
+```bash
+http://localhost:3000
+```
 
 ---
 
-## 🔗 Social Media
+## 🎵 Customization
 
-Follow me for more emotional surprise websites and creative dev content:
+You can easily customize:
 
-- 📷 Instagram: [@anujbuilds](https://instagram.com/anujbuilds)
-- 🎬 YouTube: [@anujbuilds](https://youtube.com/@anujbuilds)
-- 🐦 Twitter: [@anujbuilds](https://twitter.com/anujbuilds)
-- 💼 LinkedIn: [Anuj Chaudhary](https://linkedin.com/in/anujchaudhary549)
-
----
-
-## ⭐ Support
-
-If you found this project lovely, please consider giving it a ⭐ on [GitHub](https://github.com/Anuj579)  
-Thank you for being here! 🫶  
-Made with emotions by **Anuj** – _@anujbuilds_
-
-✨ If you'd like to support my work directly, you can donate via UPI:  
-**anujbuilds.wallet@phonepe**  
-Even a small contribution helps me keep creating cute, emotional projects 💖
+* Birthday messages
+* Music
+* Background colors
+* Animations
+* Floating effects
+* Emojis & particles
 
 ---
 
-## ⚠️ License & Usage
+## 📸 Perfect For
 
-- This free version is strictly for **personal use only**.  
-- You **cannot** post, upload, or share this project online in any form (e.g., Instagram reels, YouTube videos, websites, or any public platform).  
-- Using this free code publicly is **prohibited**.
-- Any violation will be considered **copyright infringement**, and I reserve the right to report it.# sweet-reveal-main
+* Birthday surprises
+* Friends & family wishes
+* Special celebration pages
+* Personalized greeting websites
+
+---
+
+## ⚠️ Note
+
+This project is made for learning and personal use.
+Feel free to modify and customize it according to your style.
+
+---
+
+# 🎂 Make Someone Smile With Code ✨
