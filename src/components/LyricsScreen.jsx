@@ -165,7 +165,7 @@ export default function LyricsScreen({ onNext }) {
                             <img
                                 src="/gallery/6.jpeg"
                                 alt="Birthday Girl"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover cursor-pointer"
                             />
                         </motion.div>
                     </motion.div>

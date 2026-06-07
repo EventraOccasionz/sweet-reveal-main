@@ -4,11 +4,11 @@ import { motion } from "framer-motion"
 import { Heart, Sparkles } from "lucide-react"
 
 const images = [
-    { src: "/gallery/1.jpeg", alt: "Memory 1", big: true },
-    { src: "/gallery/2.jpeg", alt: "Memory 2" },
-    { src: "/gallery/3.jpeg", alt: "Memory 3" },
-    { src: "/gallery/4.jpeg", alt: "Memory 4" },
-    { src: "/gallery/5.jpeg", alt: "Memory 5" },
+    { src: "/gallery/1.jpeg", alt: "Memory 1", big: true, cursor: "pointer" },
+    { src: "/gallery/2.jpeg", alt: "Memory 2", cursor: "pointer" },
+    { src: "/gallery/3.jpeg", alt: "Memory 3", cursor: "pointer" },
+    { src: "/gallery/4.jpeg", alt: "Memory 4", cursor: "pointer" },
+    { src: "/gallery/5.jpeg", alt: "Memory 5", cursor: "pointer" },
 ]
 
 const enter = {
@@ -80,7 +80,7 @@ export default function GalleryScreen() {
                 className="z-10 flex items-center gap-2 text-pink-300"
             >
                 <Heart size={18} className="fill-pink-400 text-pink-400" />
-                <span className="text-sm md:text-base">Made with love, for the birthday girl</span>
+                <span className="text-sm md:text-base">for the birthday girl❤️</span>
                 <Heart size={18} className="fill-pink-400 text-pink-400" />
             </motion.div>
         </motion.div>
