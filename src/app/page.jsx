@@ -5,6 +5,7 @@ import Music from "@/components/Music"
 import { motion, AnimatePresence } from "framer-motion"
 import Screen1 from "@/components/Screen1"
 import Screen2 from "@/components/Screen2"
+import GalleryScreen from "@/components/GalleryScreen"
 import { useState } from "react"
 
 export default function Home() {
@@ -20,7 +21,8 @@ export default function Home() {
           setCurrentScreen(3)
           setMusicStarted(true)
         }} />}
-        {currentScreen === 3 && <LyricsScreen key="screen3" />}
+        {currentScreen === 3 && <LyricsScreen key="screen3" onNext={() => setCurrentScreen(4)} />}
+        {currentScreen === 4 && <GalleryScreen key="screen4" />}
       </AnimatePresence>
 
       <Music shouldPlay={musicStarted} />

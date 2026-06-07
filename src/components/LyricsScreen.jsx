@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Heart, Sparkles, Star } from "lucide-react"
 import { useState, useEffect } from "react"
 
-export default function LyricsScreen() {
+export default function LyricsScreen({ onNext }) {
     const lyrics = [
         "Happy Birthday to you🎁",
         "Happy Birthday to you🎉",
@@ -151,6 +151,35 @@ export default function LyricsScreen() {
                         className="text-3xl md:text-4xl font-semibold px-4 text-center">
                         <span className="text-white">For</span> <span className="text-pink-400">Birthday Girl</span>❤️
                     </motion.h2>
+                    <motion.div
+                        initial={{ opacity: 0, y: 150 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 1.8, duration: 1.2, ease: "easeOut" }}
+                        className="relative"
+                    >
+                        <motion.div
+                            animate={{ y: [0, -8, 0] }}
+                            transition={{ delay: 3, duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                            className="relative w-48 h-48 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-pink-400/60 shadow-[0_0_40px_10px_rgba(236,72,153,0.45)]"
+                        >
+                            <img
+                                src="/birthday-girl.jpg"
+                                alt="Birthday Girl"
+                                className="w-full h-full object-cover"
+                            />
+                        </motion.div>
+                    </motion.div>
+                    {onNext && (
+                        <motion.button
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 3, duration: 0.8, ease: "easeOut" }}
+                            onClick={onNext}
+                            className="pointer-events-auto mt-2 bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-semibold py-3 px-10 rounded-full text-base md:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/30 flex items-center gap-2"
+                        >
+                            View Memories <Heart size={18} className="fill-white" />
+                        </motion.button>
+                    )}
                 </motion.div>
             )}
         </motion.div>
