@@ -163,7 +163,7 @@ export default function LyricsScreen({ onNext }) {
                             className="relative w-48 h-48 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-pink-400/60 shadow-[0_0_40px_10px_rgba(236,72,153,0.45)]"
                         >
                             <img
-                                src="/birthday-girl.jpg"
+                                src="/gallery/6.jpeg"
                                 alt="Birthday Girl"
                                 className="w-full h-full object-cover"
                             />

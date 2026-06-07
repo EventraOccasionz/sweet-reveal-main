@@ -4,11 +4,11 @@ import { motion } from "framer-motion"
 import { Heart, Sparkles } from "lucide-react"
 
 const images = [
-    { src: "/gallery/1.jpg", alt: "Memory 1", big: true },
-    { src: "/gallery/2.jpg", alt: "Memory 2" },
-    { src: "/gallery/3.jpg", alt: "Memory 3" },
-    { src: "/gallery/4.jpg", alt: "Memory 4" },
-    { src: "/gallery/5.jpg", alt: "Memory 5" },
+    { src: "/gallery/1.jpeg", alt: "Memory 1", big: true },
+    { src: "/gallery/2.jpeg", alt: "Memory 2" },
+    { src: "/gallery/3.jpeg", alt: "Memory 3" },
+    { src: "/gallery/4.jpeg", alt: "Memory 4" },
+    { src: "/gallery/5.jpeg", alt: "Memory 5" },
 ]
 
 const enter = {
